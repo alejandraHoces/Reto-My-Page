@@ -1,4 +1,160 @@
 * {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
 
+.bg-reverse {
+  background-color: #0877df;
+  color: #ffffff;
+}
+
+a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.icon-menu {
+  font-size: 1.8rem;
+}
+
+nav {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.nav-left {
+  display: inline-block;
+}
+
+.nav-right {
+  float: right;
+  padding-left: 35px;
+}
+
+.bg-header {
+  background-image: url("../assets/images/voluntariado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image {
+  padding: 6rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0 1rem;
+}
+
+h3 {
+  padding:1.5rem 0 0 1rem;
+  font-size: 2rem;
+  color: #0877df;
+}
+
+h4 {
+  padding-left: 0.5rem;
+  font-size: 1.9rem;
+  color: #f45a40;
+}
+
+ h5 {
+   font-size: 1.3rem;
+   color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  padding:1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  background: #0877df;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem ;
+  margin-left: 1rem;
+}
+
+.v-global, .e-global, .t-global {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background:#0877df;
+}
+
+.view-mobile {
+  display: block;
+}
+
+.view-desktop {
+  display: none;
+}
+
+/* estilos solo para desktop*/
+ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+@media (min-width: 768px) {
+
+.nav-left {
+  margin-top: 0.4rem;
+  display: inline-block;
+}
+
+.bg-image {
+  padding: 10rem 0;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
+  display: inline-block;
+}
+
+
+.col-xs-3 {
+  width: 25%;
+  display: inline-block;
+}
+
+.col-xs-4 {
+  width: 32.60000%;
+  display: inline-block;
+}
+
+.view-mobile {
+  display: none;
+}
+
+.view-desktop {
+  display: block;
+ }
+}
+
+@media (min-width: 1200px) {
+
+section {
+    margin: 0 5rem;
+  }
 }
