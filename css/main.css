@@ -1,9 +1,10 @@
+/*estilos generales*/
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
+/*estilos de mi encabezado*/
 .bg-reverse {
   background-color: #0877df;
   color: #ffffff;
@@ -43,7 +44,7 @@ nav {
 .bg-image {
   padding: 6rem 0;
 }
-
+/*Estilos titulo header y bg-imagen*/
 h1 {
   font-size: 4rem;
   font-weight: 300;
@@ -60,7 +61,7 @@ h3 {
   font-size: 2rem;
   color: #0877df;
 }
-
+/*Estilos del texto de la informacion de la web*/
 h4 {
   padding-left: 0.5rem;
   font-size: 1.9rem;
@@ -90,34 +91,37 @@ button {
   padding: 0.8rem ;
   margin-left: 1rem;
 }
-
-.v-global, .e-global, .t-global {
+/*Estilos de las imagenes en columnas*/
+.v-global, .e-global {
   width: 100%;
   margin-top: 1rem;
 }
-
+/*Estilos del pie de pagina*/
 footer {
   margin-top: 1rem;
   padding: 1rem;
   background:#0877df;
 }
-
+/*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
 .view-mobile {
   display: block;
 }
-
+/*estilo para ocultar el menu-hamburgueza cuando se encuentre en tablet y desktop*/
 .view-desktop {
   display: none;
 }
 
-/* estilos solo para desktop*/
+/* estilos solo para desktop y tablet*/
 ul li {
   display: inline-block;
   padding: 5px 15px;
 }
-
+/*tablet-responsive*/
 @media (min-width: 768px) {
 
+.option-volunteer{
+  margin-top: 1rem;
+}
 .nav-left {
   margin-top: 0.4rem;
   display: inline-block;
@@ -132,14 +136,13 @@ ul li {
   display: inline-block;
 }
 
-
 .col-xs-3 {
   width: 25%;
   display: inline-block;
 }
 
 .col-xs-4 {
-  width: 32.60000%;
+  width: 32.6000000%;
   display: inline-block;
 }
 
@@ -151,7 +154,7 @@ ul li {
   display: block;
  }
 }
-
+/*desktop-responsive*/
 @media (min-width: 1200px) {
 
 section {
