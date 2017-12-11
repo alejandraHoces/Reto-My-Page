@@ -103,7 +103,7 @@ footer {
   background:#0877df;
 }
 /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
-.view-mobile {
+.view-movile {
   display: block;
 }
 /*estilo para ocultar el menu-hamburgueza cuando se encuentre en tablet y desktop*/
@@ -146,7 +146,7 @@ ul li {
   display: inline-block;
 }
 
-.view-mobile {
+.view-movile {
   display: none;
 }
 
