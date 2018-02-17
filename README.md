@@ -1,15 +1,12 @@
-## RETO DE CODIGO MY PAGE
-Track: Common Core.  
-Curso: Crea tu propia red social.  
-Unidad: La web desde un móvil.
+## RETO DE CODIGO MY PAGE  
+En el siguiente trabajo se realizó una web responsive con la técnica **móvile first** la cual se adapta a diferentes vistas.
 
-En el siguiente trabajo se realizo una web responsive con la tecnica **Móvile First** la cual se adapta a diferentes vistas.
 ![Desktop](assets/images/mobilefirst1.png)
 
-### Herramientas
+### Herramientas Tecnologicas
 Se utilizó:  
-- CSS (Grid System & @Media Queries)  
-- HTML  
+- CSS3 (Grid System & @Media Queries)  
+- HTML5  
 
 ### Producto Final
 ![Mobile](assets/images/mobilefirst.png)
